@@ -2,7 +2,7 @@ M2-config
 =========
 
 Configuration settings for the software I use with my MakerGear M2 printer. 
-Should contain some generic start.gcode instructions, end.gcode instructions, 
+Contains some generic start.gcode instructions, end.gcode instructions, 
 and configuration profiles for the programs I use. They are:
 
 * slic3r - converts stl files to printer specific gcode
