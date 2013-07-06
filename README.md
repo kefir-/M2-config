@@ -11,7 +11,7 @@ profiles for the programs I use. They are:
 
 Files:
 
-* dot-pronsolerc - My Printrun / pronterface configuration. Custom buttons for quick platform calibration and to switch fans on and off. Rename this file to $HOME/.pronsolerc (on Linux anyway).
+* dot-pronsolerc - My Printrun / pronterface configuration. Sensible default speeds and temperatures, and lots of custom buttons: quick platform calibration, switch fans on and off, disable motor timeout for calibration. Rename this file to $HOME/.pronsolerc (on Linux anyway, I don't use anything else).
 * runtatlin.sh - slic3r "post-processing script" that simply launches tatlin with the latest gcode. Make sure it's last in the chain if you do other post-processing steps.
 * slic3r-config.ini - The main slic3r configuration. Import into slic3r with File -> Load config, and save all tabs if you want to keep it.
 * start.gcode - basic start.gcode sequence, should be compatible with most slic3rs. Note that cura/Skeinforge/SFACT strips the M108 command, so make sure you start your system fan manually. Does nozzle/bed warming, homing, nozzle priming and wiping, so should be safe to start unsupervised from a cold printer. Don't take my word for it though - please make sure your gcode is safe, and don't run your printer without supervision.
