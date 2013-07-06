@@ -1,0 +1,19 @@
+set port /dev/ttyACM0
+button 0 "Stop sysfan" M108 S0
+button 1 "Stop cool" M106 S0
+button 2 "Start sysfan" M108 S155
+button 3 "Start cool" M106 S255
+button 4 "Center" G1 X100 Y125 F10800
+button 5 "Cal Y-" G1 X100 Y75 F10800
+button 6 "Cal Y+" G1 X100 Y175 F10800
+button 7 "Cal X+" G1 X150 Y125 F10800
+button 8 "Cal X-" G1 X50 Y125 F10800
+button 9 "No timeout" M84 S0
+button 10 "Timeout" M84 S300
+set build_dimensions 200x250x200+0+0+0
+set last_temperature 190.0
+set last_bed_temperature 80.0
+set xy_feedrate 3000
+set z_feedrate 400
+set e_feedrate 300
+
