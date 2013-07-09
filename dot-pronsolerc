@@ -10,6 +10,9 @@ button 7 "Cal X+" G1 X150 Y125 F10800
 button 8 "Cal X-" G1 X50 Y125 F10800
 button 9 "No timeout" M84 S0
 button 10 "Timeout" M84 S300
+button 11 "cur pos" M114
+set baudrate 115200
+set tempgauges True
 set build_dimensions 200x250x200+0+0+0
 set last_temperature 190.0
 set last_bed_temperature 80.0
