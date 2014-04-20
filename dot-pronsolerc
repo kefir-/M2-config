@@ -10,13 +10,28 @@ button 7 "Cal X+" G1 X150 Y125 F10800
 button 8 "Cal X-" G1 X50 Y125 F10800
 button 9 "No timeout" M84 S0
 button 10 "Timeout" M84 S300
-button 11 "cur pos" M114
-set baudrate 115200
-set tempgauges True
-set build_dimensions 200x250x200+0+0+0
-set last_temperature 190.0
+set build_dimensions 200.00x250.00x200.00+0.00+0.00+0.00+0.00+0.00+0.00
+set last_temperature 198.0
 set last_bed_temperature 80.0
 set xy_feedrate 3000
 set z_feedrate 400
 set e_feedrate 300
 
+set baudrate 115200
+set viz3d False
+set mainviz 3D
+set temperature_pla 175
+set tempgauges True
+set monitor True
+button 11 "cur pos" M114
+set last_window_maximized True
+set last_window_width 1047
+set last_window_height 513
+set extruders 1
+set slic3rintegration True
+set lockbox True
+set lockonstart True
+set total_filament_used 16493.14161
+button 12 "Set PID" M301 P18.17 I1.41 D58.36
+button 13 "Cold extrude" M302
+button 14 "Endstop status" M119
